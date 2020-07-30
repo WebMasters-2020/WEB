@@ -1,0 +1,210 @@
+body {
+font-family: 'Raleway', sans-serif;
+font-weight: 400;
+color: #fff;
+letter-spacing: 1px;
+}
+.control-group {
+  margin-bottom: 10px;
+  padding-left: 30px;
+}
+.form {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.Contact-Us{
+    padding-left: 50px;
+}
+.contact-info {
+    text-align: center;
+    padding-left: 1px;
+    color: #998100;
+}
+.btn {
+    text-align: center;
+    background-color: #737373;
+}   
+
+
+.form-group{
+    text-align: center;
+    padding-right: : 30px;
+    color: #b0b0b0;
+    
+}
+.control-group{
+    text-align: center;
+    padding-right: : 30px;
+}
+.map{
+    text-align: center;
+    
+}
+.container{
+    text-align: center;
+    background-color: #fafafa;
+    margin: 200px;
+    width: 500px;
+    height: 1048px;
+    opacity: 95%;
+}
+
+.container:hover{
+
+    box-shadow: 10px 15px 20px white;
+}
+.container-time{
+    background-color: rgba(0, 0, 0, .95);
+    padding: 50px;
+    outline: 3px dashed #998100;
+    outline-offset: -30px;
+    text-align: center;
+
+}
+
+.line{
+    color: #998100;
+}
+
+.loginbox{
+   background-image: url(https://www.traveldailymedia.com/assets/2019/07/Conrad-Shenyang-Hilton-luxury-hotels.jpg);
+   background-size: 1800px 1472px ;
+   padding-left: 200px;
+   padding-right: 400px;
+   text-align: center;
+   background-repeat: no-repeat;
+  margin-top: 2%; 
+  position: absolute;
+}
+body{
+  background-color: #021533;
+}
+
+.back{
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  margin-left: -.6%;
+  margin-top: -0.1%; 
+  position: absolute;
+}
+
+nav{
+  width: 100%;
+  position: absolute;
+
+}
+img{
+  margin-top: -3%;
+  margin-left: 45%;
+  position: center;
+}
+
+ul{
+  list-style-type: none; /remove dots/
+  margin: 5%;
+  margin-left: -1%;
+  margin-top: -2%;
+  margin-right: 0;
+  padding: 0;
+  overflow: hidden; /outside of the section do not use/
+  font-size: 120%;
+  font-family: "Lucida Calligraphy";
+}
+
+li{
+  float: left;
+}
+
+.book{
+  width:200px;
+  height:100px;
+  float:left;
+  margin-top: -12%;
+  margin-left: 84%;
+}
+
+.text{
+  text-align: center;
+  color:white;
+  font-size: 150%;
+  padding-top: 30px;
+  opacity:.6;
+  transition:padding-top .4s;
+  text-decoration: none;
+  font-family: "Lucida Calligraphy";
+}
+
+.book:hover{
+  background-color: #23a7c4;
+  height:110px;
+  transition:height .4s;
+  box-shadow: 0px 8px 16px 0px silver;
+}
+
+.book:hover .text{
+  color: blue;
+  padding-top:30px;
+  opacity: 1;
+}
+
+li a{
+  display: block; /Navigation bar/
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #28c7eb;
+  box-shadow: 0px 8px 16px 0px silver;
+  color: blue;
+  opacity: 0.8;
+}
+
+section{
+  height: 100vh;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #021533;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px silver;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #28c7eb;
+  box-shadow: 0px 8px 16px 0px silver;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: blue;
+}
+
