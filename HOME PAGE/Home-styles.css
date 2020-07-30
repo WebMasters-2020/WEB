@@ -1,0 +1,243 @@
+body{
+  background-color: #021533;
+}
+
+nav{
+  width: 100%;
+  position: absolute;
+
+}
+
+img{
+  margin-top: -3%;
+  margin-left: 45%;
+  position: center;
+}
+
+ul{
+  list-style-type: none; /*remove dots*/
+  margin: 5%;
+  margin-left: -1%;
+  margin-top: -4%;
+  margin-right: 0;
+  padding: 0;
+  overflow: hidden; /*outside of the section do not use*/  
+  font-size: 120%;
+  font-family: "Lucida Calligraphy";
+}
+
+li{
+  float: left;
+}
+
+.book{
+  width:200px;
+  height:90px;
+  float:left;
+  margin-top: -16%;
+  margin-left: 84%;
+}
+
+.text{
+  text-align: center;
+  color: white;
+  font-size: 150%;
+  padding-top: 30px;
+  opacity:.6;
+  transition:padding-top .4s;
+  text-decoration: none;
+  font-family: "Lucida Calligraphy";
+}
+
+.book:hover{
+  background-color: #23a7c4;
+  height:95px;
+  transition:height .4s;
+  box-shadow: 0px 8px 16px 0px silver;
+}
+
+.book:hover .text{
+  color: blue;
+  padding-top:30px;
+  opacity: 1;
+}
+
+li a{
+  display: block; /*Navigation bar*/
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #28c7eb;
+  box-shadow: 0px 8px 16px 0px silver;
+  color: blue;
+  opacity: 0.8;
+}
+
+section{
+  height: 100vh;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+
+
+h1{
+  font-size: 325%;
+  line-height: 1.4;
+  letter-spacing: 0.5rem;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Lucida Calligraphy";
+  color: silver;
+  text-decoration: none;
+}
+
+h1:hover{
+  color: #28c7eb;
+}
+
+a{
+  font-family: "Lucida Calligraphy";
+  color: silver;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #28c7eb;
+}
+
+.mainImage{
+  width: 70%;
+  height: 500px;
+  margin-left: 14%;
+  background-image: url(https://lh5.googleusercontent.com/proxy/qxFTC8f10SBvHovO5RNidlHg73tC8Qcpss-_4kVtKwBNDNiwBEIj1SZZhf2Zjjmk8RizEwVyaOExo5JrGngjtcn_ZbGqRgjbkTrOzKaMUAa0RkbB9mzdylkdo2t-xzQP-Q);
+  background-size: cover;
+}
+
+.mainImage:hover{
+  box-shadow: 0px 8px 16px 0px silver;
+}
+
+.info {
+  color: white;
+  font-family: "Lucida Calligraphy"; 
+  width: 60%;
+  text-align: center;
+  background-color: #b6baba;
+  opacity: 0.6;
+  margin-left: 20%;
+  font-size: 150%;
+}
+
+.info:hover{
+  color: #23a7c4;
+  box-shadow: 0px 8px 16px 0px silver;
+  background-color: white;
+}
+
+.video{
+  background-image: url("https://lh5.googleusercontent.com/proxy/esOYRH4PVvUAB2DDn1E3f9c2L4eX_Vw4L3uqvBjhsBaPNcERnQYOlzLuxkGvyc0ioPavvUUSfgU0R1Yu3dqK16LTekcFbWqraHNkHK7gCGZg8JQwYdEe4xjNnx539y_lVpRYiQIcig");
+  background-size: 100%;
+  padding-top: 4%;
+  text-align: center;
+}
+
+.video:hover{
+  box-shadow: 0px 8px 16px 0px silver;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrap{
+  width: 1100px;
+  height: 50px auto;
+  display: flex;
+  justify-content: center;
+  margin-left: 9%;
+}
+
+.card-wrap{
+  margin: 10px;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+
+.card{
+  width: 300px;
+  height: 350px;
+  background: silver;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: .7s ease;
+}
+
+.adelante, .animate{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.adelante{
+  width: 100%;
+}
+
+.animate{  
+  transform: rotateY(180deg);  
+
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  color: #a15005;
+  font-family: "Lucida Calligraphy";
+}
+
+.card-wrap:hover .card{ 
+  transform: rotateY(180deg); 
+  box-shadow: 0px 8px 16px 0px pink;
+}
+
+.card1{
+  background-image: url(https://i.pinimg.com/originals/88/df/0a/88df0a0979d10c1c1af58925bbef484e.jpg);
+  background-size: 300px 350px;
+}
+
+.card2{
+  background-image: url(https://mk0travelawayrru2xew.kinstacdn.com/wp-content/uploads/2015/03/undersea-restaurant.jpg);
+  background-size: 300px 350px;
+}
+
+.card3{
+  background-image: url(https://www.thegoldencrownhotel.com/images/site-specific/golden_crown/weddings/windsor-ballroom-1.jpg);
+  background-size: 300px 350px;
+}
+
+.card4{
+  background-image: url(https://vistapointe.net/images/bar-7.jpg);
+  background-size: 300px 350px;
+}
