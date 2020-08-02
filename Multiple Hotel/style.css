@@ -1,0 +1,91 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#021533 ;
+
+}
+table{
+  background-color:#e6e6ff;
+  margin: 0;
+  padding: 0;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.citadel{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ }
+ .kandy{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+.citrine{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.seaside{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+.h{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+}
+<style>
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .3s; /* Animation */
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position:absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.7;
+}
+.button{
+border: none;
+border-radius: 8px;
+}
+.w3-Title{
+  font-size: 325%;
+  line-height: 1.4;
+  letter-spacing: 0.5rem;
+  text-align: center;
+
+  font-family: "Trebuchet MS";
+  color: silver;
+  text-decoration: none;
+}
+
+.w3-Title:hover{
+  color: #28c7eb;
+}
+</style>

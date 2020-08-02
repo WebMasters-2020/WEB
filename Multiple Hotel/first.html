@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maps | Multiple Hotels</title>
+
+</head>
+<body>
+  <a href="..\HOME PAGE\Home.html" style="float: right;" title="Back to Home Page"><img src="Images\back2Home.png"alt="Back to Home Page"></a>
+  <div class="w3-Title">Multiple Hotels</div>
+<center>
+  <div class="w3-content w3-section" style="max-width:60%;">
+    <img class="mySlides"  src="images\4.jpg" style="width:100%">
+    <img class="mySlides" src="images\3.jpg" style="width:100%">
+    <img class="mySlides" src="images\2.jpg" style="width:100%">
+  </div>
+</center>
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+  }
+  </script>
+
+<!--img class="h" src="4.jpg" alt="welcomeImage"width="1200px"height="430px"-->
+<i><p style="font-family:Trebuchet MS;text-align: center;color:#bfbfbf;">Take your pick. Choose from the best hotels and resorts across our four distinct brands.</p></i>
+<p style="font-family:Trebuchet MS;font-size:36px;text-align: center;color:#a6a6a6;">Our brands</p>
+
+  <table class="center" style="width:93%">
+    <tr>
+
+    <td>
+    <table>
+    <tr>
+    <td><img class="h" src="Images\image.jpeg" alt="welcomeImage"width="390"><br><br>
+</td>
+    <td valign="top"><h3 style="font-family:Trebuchet MS;color: #333333;">Colombo</h3>
+<i style="color:purple;"><h4>Sea side Park Hotel</h4></i>
+
+<p style="font-family:Trebuchet MS;color: #333333;">Enjoy world-class service amidst tranquil surroundings, coupled with inspirational design and transformative experiences in some of the world's finest urban addresses and resort destinations.</p>
+  <button class="button"><a href="colombo.html"><img src="Images\Untitl.jpg"></a></button>
+    <br><br><br><hr>
+
+    </td>
+    </tr>
+  <tr>
+    <td><img class="h" src="Images\a12.jpg" alt="welcomeImage"width="390"><br><br>
+    </td>
+  <td valign="top"><h3 style="font-family:Trebuchet MS;color: #333333;">Kandy</h3>
+    <i style="color:purple;"><h4>Nuwara Lodge</h4></i>
+
+  <p style="font-family:Trebuchet MS;color: #333333;">Experience an urban lifestyle destination where the hotel and neighbourhood seamlessly connect and create a vibrant hub offering locals and travellers space to live life well.</p>
+ <button class="button"><a href="kandy.html"><img src="Images\Untitl.jpg"></a></button>
+ <br><br><br><hr>
+
+  </td>
+  </tr>
+  <tr>
+    <td><img  class="h" src="Images\045ba721-59cc7113.jpg" alt="welcomeImage"width="390">
+    </td>
+  <td valign="top"><h3 style="font-family:Trebuchet MS;color: #333333;">Anuradhapura</h3>
+    <i style="color:purple;"><h4>Purple Village</h4></i>
+      <p style="font-family:Trebuchet MS;color: #333333;">With versatile efficiency and practicality at its core, Traders hotels offer vibrant spaces designed to complement guests at work, rest or play.</p>
+<button class="button"><a href="anuradhapura.html"><img src="Images\Untitl.jpg"></a></button>
+ <br><br><br><hr>
+
+  </tr>
+  <tr>
+    <td><img class="h" src="Images\jaffnatours-jetwing jaffna.jpg" alt="welcomeImage"width="390" height="230">
+    </td>
+  <td valign="top"><h3 style="font-family:Trebuchet MS;color: #333333;">Jaffna</h3>
+  <i style="color:purple;"><h4>Citrine Hotel</h4></i>
+
+  <p style="font-family:Trebuchet MS;color: #333333;">Experience a diverse, fast-growing mid-range hotel brand that offers authentic insights, homegrown experiences and unexpected adventures.</p>
+ <button class="button"><a href="jaffna.html"><img src="Images\Untitl.jpg"></a></button>
+ <br><br><br><br><br><br><hr>
+  </tr>
+</table>
+</td>
+    <td>
+    <img src="Images\Untitled.png" alt="Workplace" usemap="#workmap" width="530px" height="783px">
+<map name="workmap">
+  <area shape="rect" coords="173,283,261,327" alt="Anuradhapura Hotel" href="anuradhapura.html">
+  <area shape="rect" coords="230,526,272,544" alt="Kandy Hotel" href="kandy.html">
+  <area shape="rect" coords="106,609,150,624" alt="Colombo Hotel" href="colombo.html">
+  <area shape="rect" coords="116,34,147,70" alt="Jaffna Hotel" href="jaffna.html">
+</map>
+      </td>
+</tr>
+</table>
+<table>
+<tr>
+<p align=center ><a href="..\Contact US Form\UI1.html" style="font-family:Trebuchet MS;color:  #e6e6e6;">Contact Us</a></p>
+<p align=center style="font-family:Trebuchet MS;color: #e6e6e6;">Follow Us on: <a href="https://www.instagram.com/" style="font-family:Trebuchet MS;color: #e6e6e6;">Instagram</a>|<a href="https://www.facebook.com/public/somehotel" style="font-family:Trebuchet MS;color: #e6e6e6;">facebook</a></p>
+</tr>
+</table>
+</body>
+</html>
