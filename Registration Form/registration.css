@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url("https://i.pinimg.com/originals/ec/30/cd/ec30cdf6c7ab87f0ddd897326b0171d6.jpg");
+	background-size: cover;
+}
+
+p.dotted {
+	border-style: dotted;
+	width: 80%;
+}
+
+h2{
+	text-align: center;
+	margin-right: 23%;
+}
+
+.register{
+	background-position: center;
+	background: #54320b;
+    width: 500px;
+    margin: 0px 0px 0px 470px;
+    color: gold;
+    font-size: 19px;
+    font-family: "Lucida Calligraphy";
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+#register{
+	margin-left: 19%;
+	margin-top: 1%;
+}
+
+.register:hover{
+	box-shadow: 0px 3px 6px 1px white;	
+}
+
+label{
+	color: gold;
+	font-family: sans-serif;
+	font-size: 18px;
+    font-family: "Lucida Calligraphy";	
+}
+
+#name{
+	width: 300px;
+	border: none;
+	border-radius: 3px;
+	outline:0px;
+	padding: 7px;
+}
+
+#country{
+	width: 29%;
+	padding: 7px;
+	border: none;
+	border-radius: 3px;
+	outline: 0px;
+}
+
+.date{
+	color: gold;
+	font-size: 75%;
+}
+
+#ph{
+	width: 65px;
+	padding: 7px;
+	border: none;
+	border-radius: 3px;
+	outline: 0px;
+}
+
+#num{
+	width: 230px;
+	padding: 7px;
+	border: none;
+	border-radius: 3px;
+	outline: 0px;
+}
+
+.btn{
+	background-color: gold;
+	color: #54320b;
+	padding: 10px 20px;
+	border: none;
+	font-size: 18px;
+	border-radius: 100px;
+	box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	transition: all .3s;	
+    font-family: "Lucida Calligraphy";
+}
+
+.btn:hover{
+	transform: scale(1.03);
+	box-shadow: 0px 8px 16px 0px gold;
+}
+
+.register a{
+	text-decoration: none;
+	font-size: 90%;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.register a:hover
+{
+	color: #ffc107;
+}
