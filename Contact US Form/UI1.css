@@ -22,8 +22,12 @@ letter-spacing: 1px;
 }
 .btn {
     text-align: center;
-    background-color: #737373;
+    background-color:#14731a ;
 }   
+.btnc {
+    text-align: center;
+    background-color:#c92a2a ;
+} 
 
 
 .form-group{
