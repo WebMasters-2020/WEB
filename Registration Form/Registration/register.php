@@ -14,7 +14,7 @@
 		<form method="POST"  action="registration.php" onsubmit="validate();">
 			<p class="dotted"></p>
 
-			<h2>REGISTER<br><br></h2>
+			<h2>REGISTER</h2><br><br>
 			<label> First Name :</label><br>
 			<input type="text" name="fname" id="name"
              placeholder="Enter Your First Name" required><br><br>
