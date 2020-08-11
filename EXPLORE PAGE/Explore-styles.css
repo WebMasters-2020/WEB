@@ -200,3 +200,60 @@ h2:hover{
   background-size: 1400px 600px ;
   font-family: "Lucida Calligraphy";
 }
+
+hr{
+  color: white;
+}
+
+.footer{
+  text-align: center;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 90%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.brand{
+font-size: 12px;
+box-sizing: border-box;
+background-color: #e6eaed;
+height: 90px;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+align-items: center;
+display: flex;
+width: 100%;
+}
+
+.brand img{
+  padding-top: 3%;
+}
+
+.copy-right{
+-webkit-font-smoothing: antialiased;
+font-weight: 400;
+font-family: Montserrat,Verdana,Helvetica,Arial,sans-serif;
+font-size: 12px;
+text-align: center;
+box-sizing: border-box;
+line-height: 18px;
+color: #979899;
+}
