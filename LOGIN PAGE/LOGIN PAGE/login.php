@@ -123,9 +123,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 		  			<input type="submit" class="btn btn-primary" value="Login">
 		  		</div>
 		  			
-		  			<a href="registration.html">Don't have an account?</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		  			<a href="http://localhost/Registration/register.php">Don't have an account?</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-		  			<a href="Assignment-NAV.html">Cancel</a>  			
+		  			<a href="Home.html">Cancel</a>  			
 		  			<br><br>
 		  			
 		  		</form>
