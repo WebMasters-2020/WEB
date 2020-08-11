@@ -46,7 +46,6 @@ letter-spacing: 1px;
 }
 .container{
     text-align: center;
-    background-color: #fafafa;
     margin: 200px;
     width: 500px;
     height: 1048px;
@@ -73,7 +72,7 @@ letter-spacing: 1px;
 .loginbox{
    background-image: url(https://www.traveldailymedia.com/assets/2019/07/Conrad-Shenyang-Hilton-luxury-hotels.jpg);
    background-size: 1800px 1472px ;
-   padding-left: 200px;
+   padding-left: 210px;
    padding-right: 400px;
    text-align: center;
    background-repeat: no-repeat;
@@ -211,4 +210,66 @@ li.dropdown {
   display: block;
   color: blue;
 }
+.UP{
+  margin-left: 50%;
+  color: white;
+}
 
+hr{
+  color: white;
+}
+
+.footer{
+  text-align: center;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 5px;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  top: 80%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 88%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.brand{
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+box-sizing: border-box;
+background-color: #e6eaed;
+height: 90px;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+align-items: center;
+display: flex;
+}
+
+.brand img{
+  padding-top: 3%;
+}
+
+.copy-right{
+  -webkit-font-smoothing: antialiased;
+font-weight: 400;
+font-family: Montserrat,Verdana,Helvetica,Arial,sans-serif;
+font-size: 12px;
+text-align: center;
+box-sizing: border-box;
+line-height: 18px;
+color: #979899;
+}

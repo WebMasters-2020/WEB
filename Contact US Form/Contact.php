@@ -6,7 +6,7 @@
  			
  			$con = mysqli_connect("localhost","root","");
  			if ($con){
- 						echo "Successfully Transfered To Our Server";
+ 						echo "Data has been saved successfully";
  			}
  			
  			$db = mysqli_select_db($con,"contact us");
