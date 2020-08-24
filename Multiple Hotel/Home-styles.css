@@ -97,6 +97,17 @@ li a, .dropbtn {
   padding: 20px 16px;
   text-decoration: none;
 }
+
+a{
+  font-family: "Lucida Calligraphy";
+  color: silver;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #28c7eb;
+}
+
 .UP{
   margin-left: 50%;
   color: white;
@@ -146,7 +157,8 @@ display: flex;
 }
 
 .brand img{
-  padding-top: 3%;
+  padding-top: 0%;
+  padding-Left: 45%;
 }
 
 .copy-right{
