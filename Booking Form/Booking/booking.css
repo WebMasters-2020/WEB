@@ -1,0 +1,102 @@
+body {
+font-family: "Lucida Calligraphy";
+font-weight: 400;
+color: gold;
+letter-spacing: 1px;
+background-image: url("https://www.hotelierindia.com/public/images/2020/07/10/gold-platted.jpg");
+background-size: cover;
+}
+
+.form-group{
+    color: gold;
+    padding: 20px 0;
+	margin: 0 0;
+}
+
+.form-control{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+	color: gold;
+	background-color: black;
+}
+.container {
+background-color: black;
+margin: 200px;
+box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+display: grid;
+grid-template-columns: 40% 60%;
+opacity: 0.9;
+}
+
+
+.container-time{
+	background-color: rgba(0, 0, 0, .95);
+	padding: 90px;
+	padding-top: 150px;
+	outline: 3px dashed #998100;
+	outline-offset: -30px;
+	text-align: center;
+	height: 59%;
+
+}
+
+.heading{
+	font-size: 35px;
+	text-transform: uppercase;
+	color: gold;
+}
+
+.heading-days{
+	color: #998100;
+	font-size: 30px;
+
+}
+
+.heading-phone{
+	font-size: 20px;
+}
+
+.container-form{
+	padding: 20px 0;
+	margin: 0 auto;
+	color: #000;
+}
+form{
+	display: grid;
+	grid-row-gap: 20px;
+}
+form p{
+	font-weight: 600;
+}
+.form-field{
+	display: flex;
+	justify-content: space-between;
+	color: gold;
+}
+
+input,select{
+	pad:10px 15px;
+	color: gold;
+}
+
+.btn{
+	background-color: gold;
+	color: black;
+	width: 50%;
+	padding: 10px 20px;
+	border: none;
+	font-size: 18px;
+	font-family: "Lucida Calligraphy";
+	border-radius: 100px;
+	box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	transition: all .3s;
+}
+
+.btn:hover{
+	transform: scale(1.03);
+	box-shadow: 10px 12px 15px rgba(0, 0, 0, .3)
+
+}
