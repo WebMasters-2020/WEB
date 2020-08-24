@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    height: 900px;
+    background-color: rgb(54, 52, 44);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.box{
+    position: absolute;
+    top: 1700px;
+    left: 470px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-sizing: border-box;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    transition: .5s;
+    z-index: -1;
+}
+.box:hover{
+    box-shadow: 0 15px 30px rgba(204, 148, 26, 0.404);
+}
+.box .imgBx{
+    width: 150px;
+    flex: 0 0 150px;
+
+}
+.box .imgBx img{
+    
+    max-width: 100%;
+}
+.box .content{
+    padding-left: 20px;
+}
+.box .content p{
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+}
+
+header{
+    background-image: url("https://www.vendom.jobs/image/news/news-main-mandarin-oriental-jumeira-dubai-to-open-in-q1-2019.1548325942.jpg");
+    text-align: center;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: center;
+    overflow: hidden;
+    border-radius: 0 0 90% 90% / 35%;
+    
+}
+
+header .overlay{
+    width: 100%;
+    height: 100%;
+    padding: 150px;
+    color: goldenrod;
+    text-shadow: 1px 1px 1px #333;
+    font-family: lucida calligraphy;
+    font-size: 32px;
+}
+.box2{
+    position: absolute;
+    top: 2350px;
+    left: 700px;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-sizing: border-box;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    display: flex;
+    transition: .5s;
+    z-index: -1;
+}
+.box2:hover{
+    box-shadow: 0 15px 30px rgba(204, 148, 26, 0.404);
+}
+.box2 .imgBx2{
+    width: 150px;
+    flex: 0 0 150px;
+
+}
+.box2 .imgBx2 img{
+    
+    max-width: 100%;
+}
+.box2 .content2{
+    padding-left: 20px;
+}
+.box2 .content2 p{
+    margin: 0;
+    padding: 20px 0 0;
+    text-align: justify;
+    
+}
+.box2 .content2 h1{
+margin: 0;
+padding-left: 0;
+color: rgba(204, 148, 26, 0.404);
+}
+.container3{
+    left: 15%;
+    top: 183%;
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.container3 .card{
+    position: relative;
+}
+.container3 .card .face{
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+
+}
+.container3 .card .face.face1{
+    position: relative;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+.container3 .card:hover .face.face1{
+    background: rgba(204, 148, 26, 0.404);
+    transform: translateY(0);
+}
+.container3 .card .face.face1 .content3{
+    opacity: 0.2;
+    transition: 0.5s;
+
+}
+.container3 .card:hover .face.face1 .content3{
+    opacity: 1;
+}
+.container3 .card .face.face1 .content3 img{
+max-width: 100;
+}
+.container3 .card .face.face1 .content3 h4{
+margin: 10px 0 0;
+padding: o;
+color: #fff;
+text-align: center;
+font-size: 1.5em;
+}
+.container3 .card .face.face2{
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    transform: translateY(-100px);
+}
+.container3 .card:hover .face.face2{
+    transform: translateY(0);
+}
+.container3 .card .face.face2 .content3 p{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+nav{
+  width: 100%;
+  position: absolute;
+  background-color:rgba(2, 21, 51, 0.589);
+  padding: 0px 60px 0px 0px;
+  height: 180px;
+ 
+}
+
+nav img{
+  margin-top: -3%;
+  margin-left: 65px;
+  position: center;
+}
+
+nav ul{
+  list-style-type: none; /*remove dots*/
+  margin: 5%;
+  margin-left: -1%;
+  margin-top: -4%;
+  margin-right: 0;
+  padding: 0;
+  overflow: hidden; /*outside of the section do not use*/  
+  font-size: 120%;
+  font-family: "Lucida Calligraphy";
+}
+
+
+li{
+  float: left;
+}
+
+
+.book{
+  width:200px;
+  height:90px;
+  float:left;
+  margin-top: -16%;
+  margin-left: 1100px;
+  
+}
+
+nav .book .text9{
+  text-align: center;
+  color: white;
+  font-size: 150%;
+  padding-top: 30px;
+  opacity:.6;
+  transition:padding-top .4s;
+  text-decoration: none;
+  font-family: "Lucida Calligraphy";
+}
+
+.book:hover{
+  background-color: #23a7c4;
+  height:95px;
+  transition:height .4s;
+  box-shadow: 0px 8px 16px 0px silver;
+}
+
+.book:hover .text9{
+  color: blue;
+  padding-top:30px;
+  opacity: 1;
+}
+
+li a{
+  display: block; /*Navigation bar*/
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #28c7eb;
+  box-shadow: 0px 8px 20px 0px silver;
+  color: blue;
+  opacity: 0.8;
+}
+
+
+section{
+  height: 100vh;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
