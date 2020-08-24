@@ -15,13 +15,14 @@
  </head>
 
  <body>
-     <header>
-       <img src="https://www.freelogodesign.org/file/app/client/thumb/89531ca2-866e-496f-bbc6-6e00c06422ee_200x200.png?1594656427518">
+      <header>    
+
+    <img src="https://www.freelogodesign.org/file/app/client/thumb/89531ca2-866e-496f-bbc6-6e00c06422ee_200x200.png?1594656427518">
 
     <nav>
       <ul>
         <li class="button">
-          <a href="" class="hme">Home</a>
+          <a href="Home.html" class="hme">Home</a>
         </li>
 
         <li class="button">
@@ -29,33 +30,27 @@
         </li>
 
         <li class="button">
-          <a href="https://www.google.com/" class="HotelReservation">Hotel Reservation</a>
+          <a href="http://localhost/Registration/register.php" class="HotelReservation">Hotel Reservation</a>
         </li>
-        
-        <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Multiple Hotel</a>
-          <div class="dropdown-content">
-            <a href="https://www.google.com/">Link 1</a>
-            <a href="https://www.google.com/">Link 2</a>
-            <a href="https://www.google.com/">Link 3</a>
-          </div>
-        </li>        
 
         <li class="button">
-          <a href="https://www.google.com/" class="Events">Events</a>
+          <a href="first.html" class="MultipleHotels">Multiple Hotels</a>
         </li>
 
+        <li class="button">
+          <a href="events.html" class="Events">Events</a>
+        </li>       
+          
         <li class="button">
           <a href="UI1.html" class="ContactUs">Contact Us</a>
-        </li>        
+        </li>    
       </ul>
 
       <div class="book" id="three">
-        <a href="https://www.google.com/" class="text"><b><br>&nbsp;BOOK NOW</b></a></button>
+        <a href="http://localhost/Registration/register.php" class="text"><b><br>&nbsp;BOOK NOW</b></a>
       </div>
     </nav>
-
-     </header>
+  </header>
 
    <!-- contact-form -->
      <div class="loginbox">
@@ -143,10 +138,29 @@
 
             <a href="https://www.google.com/maps/place/Sea+Side+Terrace+Tourist+Hotel/@6.7785704,79.8763581,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae24503bf86363d:0x91372aa801c0cbef!8m2!3d6.7785704!4d79.8785468" style="color: #d2282e;" target="_blank">Directions to SEA-SIDE SOUTH PARK HOTEL</a>
 
-          </div> 
+          </div>
+
 
       </div>
+  </div>
 </div>
-    </div>
+
+    <div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <hr><br><br>
+
+  <p class="footer">&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp; | &nbsp;&nbsp;About Us&nbsp;&nbsp; | &nbsp;&nbsp;Hotel Reservation&nbsp;&nbsp; | &nbsp;&nbsp;Multiple Hotels&nbsp;&nbsp; | &nbsp;&nbsp;Events&nbsp;&nbsp; | &nbsp;&nbsp;Contact Us
+
+    <a href="https://www.facebook.com/sea.side.14661" class="fa fa-facebook"><b><i>f</i></b></a>
+  <a href="https://twitter.com/SeaSideSouthPa1" class="fa fa-twitter"><b><i>t</i></b></a>
+  </p><br>
+
+  <div class="brand">
+      <img src="https://www.freelogodesign.org/file/app/client/thumb/89531ca2-866e-496f-bbc6-6e00c06422ee_200x200.png?1594656427518">
+  </div><br>
+
+  <div class="copy-right">© 2020 Sea Side South Park International Hotel Management Ltd. All Rights Reserved</div>
+</div>
   </body>
 </html>
